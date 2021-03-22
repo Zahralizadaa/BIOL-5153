@@ -1,5 +1,5 @@
 # set the name of input DNA sequence file
-seq = 'c:/home/codebind/Desktop/Scripts/nad4L.txt'
+seq = 'nad4L.txt'
 # open the input file 
 infile = open(seq,'r')
 dna_sequence = infile.read().rstrip()
@@ -21,3 +21,4 @@ outfile.write('sequence lenght:'+ str(seq_len) + 'nt'+ "\n"
 "G+C content:" + str(GCcontent)
 )
 outfile.close()
+
