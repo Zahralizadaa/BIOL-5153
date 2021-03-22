@@ -7,7 +7,11 @@ The BIOL-5153 is a repository for "programming for biologists" course and my ass
 
 3-assn03(first commit): learning how to work with BLAST in cluster.
 
+<<<<<<< HEAD
 4-assn04: learning how to write python scripts and reusing them for different jobs.Here is a schreenshot of razor script and pwd:
+=======
+4-assn04: learning how to write python scripts and reusing them for different jobs. Here is a schreenshot of razor script and pwd: 
+>>>>>>> 5abfad9023dd5f4a8770cf189e4b7d72c19db0be
 
 5-assn05: Writing a python script for counting DNA sequence content.
 
