@@ -1,0 +1,59 @@
+1-
+a) yes. python3 is installed but python2.7 is not installed.
+b) apt-cache policy python3 , python3
+   apt-cache policy python2.7 , python2.7
+   Running four of the above commands seperately, showed information about installation.
+
+2-
+a) yes.
+b) 254k
+c) cp letters.txt letters.let
+d) rm letters.let
+e) mkdir lab2
+
+3-
+cat cox* > lab2 cox_genes.fasta
+
+4-
+rm -r lab2
+
+5-
+a) ~/Desktop/example_files$ wc -l shaver_etal.csv 
+b) 1626
+c) ~/Desktop/example_files$ grep Toolik shaver_etal.csv
+d) ~/Desktop/example_files$ grep -v Toolik shaver_etal.csv
+
+6-
+find ~/ -name "nad*"
+
+7- top
+I used the top commend and got the below data.
+Tasks: 223 total,   1 running, 222 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.6 us,  0.3 sy,  0.0 ni, 98.9 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st
+MiB Mem :   5019.3 total,   2168.0 free,   1255.2 used,   1596.1 buff/cache
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   3472.9 avail Mem 
+PID to renice [default pid = 7776] 
+
+8-
+first command:
+~/Desktop/watermelon_files$ grep misc_feature ~/Desktop/watermelon_files/watermelon.gff | sort -k7nr > ~/Desktop/watermelon_files/IR_regions.gff
+second command:
+~/Desktop/watermelon_files$ cat IR_regions.gff 
+
+9-
+~/Desktop/watermelon_files$ grep -c IR ~/Desktop/watermelon_files/watermelon.gff
+~/Desktop/watermelon_files$ grep -cv IR ~/Desktop/watermelon_files/watermelon.gff
+Since the result for first command is 4 and for the second command is 140,most cholroplast fragments come from outside the IR region.
+
+10-
+~/Desktop/watermelon_files$ grep -vB1 GAATTC ~/Desktop/watermelon_files/nt/*.fasta | grep -B1 GGATCC ~/Desktop/watermelon_files/nt/*.fasta
+
+11-
+~/Desktop/example_files$ cut -f 500-1000 shaver_etal.csv | less
+
+12-
+~/Desktop/example_files$ sort -k2,2r -k3 fruit.txt | column -t
+
+
+
+
