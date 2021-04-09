@@ -11,3 +11,5 @@ The BIOL-5153 is a repository for "programming for biologists" course and my ass
 
 5-assn05: Writing a python script for counting DNA sequence content.
 
+6-assn06: parsing gff file in order to extarct the sequence.
+
