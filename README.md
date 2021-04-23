@@ -13,3 +13,5 @@ The BIOL-5153 is a repository for "programming for biologists" course and my ass
 
 6-assn06: parsing gff file in order to extarct the sequence.
 
+7-asnn07: extracting the exon sequences 
+
